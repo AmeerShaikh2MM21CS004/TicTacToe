@@ -3,8 +3,15 @@
     padding:0px;
 }
 body{
-    background-color:#548687;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
     text-align:center;
+}
+h1{
+    color: #CCCCCC;
+    text-decoration:underline;
+    font-size: 70px;
+    margin: 20px auto 30px auto;
+    color: white;
 }
 .container{
     height:70vh;
@@ -30,7 +37,7 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     font-size:8vmin;
     color:#b0413e;
-    background-color:#ffffc7;
+    background-color:#bca0dc;
 }
 #reset-btn{
     background-color:#191913;

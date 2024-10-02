@@ -22,15 +22,18 @@ const resetGame=()=>{
     turn0=true;
     enableBoxes();
     msgContainer.classList.add("hide");
+    count=0;
 }
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if (turn0==true){ //playerX
             box.innerText="X";
+            box.style.color="#382559";
             turn0=false;
         }
         else{            //playerO
             box.innerText="O";
+            box.style.color="#6B4ABC";
             turn0=true;
         }
         box.disabled=true;
@@ -40,6 +43,7 @@ boxes.forEach((box)=>{
 
         if(count==9 && !iswinner){
             gameDraw();
+
         }
     })
 });
@@ -60,6 +64,7 @@ const gameDraw=()=>{
     msg.innerText=`Game was Draw!!`;
     msgContainer.classList.remove("hide");
     disableBoxs();
+    resetGame();
 }
 const showWinner=(winner)=>{
     msg.innerText=`Congratulation, winner is ${winner}`;
@@ -75,6 +80,7 @@ const checkwinner=()=>{
         if (pos1val!="" && pos2val!="" && pos3val!=""){
             if(pos1val===pos2val && pos2val===pos3val){
                 showWinner(pos1val);
+                count=0;
                 return true;
             }
         }
