@@ -30,4 +30,38 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     font-size:8vmin;
     color:#b0413e;
+    background-color:#ffffc7;
+}
+#reset-btn{
+    background-color:#191913;
+    padding:1rem;
+    font-size:1.25rem;
+    color:#FFFFFF;
+    border-radius:1rem;
+    border:none;
+}
+#new-btn{
+    background-color:#191913;
+    padding:1rem;
+    font-size:1.25rem;
+    color:#FFFFFF;
+    border-radius:1rem;
+    border:none;
+    margin-top:4rem; 
+}
+
+#msg{
+    color:#ffffc7;
+    font-size:8vmin;
+}
+.msg-container{
+    height:100vmin;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.hide{
+    display:none;
 }
