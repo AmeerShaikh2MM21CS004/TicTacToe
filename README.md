@@ -14,7 +14,6 @@ A simple browser-based **TicTacToe** game implemented using HTML, CSS, and JavaS
 
 ![TicTacToe Screenshot](images/1.png)  
 ![TicTacToe Screenshot](images/2.png) 
-![TicTacToe Screenshot](images/3.png) 
 _A screenshot of the game interface._
 
 ## How to Play
