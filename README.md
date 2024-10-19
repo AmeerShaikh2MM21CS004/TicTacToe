@@ -18,8 +18,8 @@ With the addition of a Django backend, the game now supports multiplayer functio
 
 ## Demo
 
-![TicTacToe Screenshot](images/1.png)  
-![TicTacToe Screenshot](images/2.png)  
+![TicTacToe Screenshot](scrrenshot/1.png)  
+![TicTacToe Screenshot](screenshot/2.png)  
 _A screenshot of the game interface._
 
 ## How to Play
